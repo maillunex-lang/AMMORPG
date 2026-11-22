@@ -27,6 +27,12 @@
 19. [ ] Monetization, anti-cheat, admin
 20. [ ] MVP, QA, RuStore release
 
+## Editor-first requirements
+- [x] EDITOR-001: desktop Godot visual UI editing, one .tscn per screen, reusable themes, responsive layout and offline preview.
+- [x] EDITOR-002: desktop Godot visual region editing with modular scenes, reusable props and spawn/interaction markers.
+- [ ] Design and validate scene-to-server content export/versioning and authoritative world-state boundaries.
+- [ ] Evaluate editor tooling/plugins separately; no third-party integration without approval.
+
 ## Cross-stage constraints
 - [x] CHAR-RIG-001 B: humanoid playable characters, NPCs and ordinary enemies; rare bosses may differ. Meshy AI rigging workflow; validate skeleton compatibility and animation retargeting in Godot.
 - [ ] Apply to GDD-02, GDD-06 and GDD-10.
