@@ -17,8 +17,8 @@ All four decisions are approved by the project owner. No third-party code or plu
 5. Obtain separate approval before implementing third-party code.
 6. Record decisions and update ROADMAP after each stage.
 
-## GDD-01 GitHub candidates (NOT APPROVED FOR INTEGRATION)
-- https://github.com/TokisanGames/Terrain3D — terrain editing, LOD, foliage. Validate Android GDExtension binaries, FPS and memory.
-- https://github.com/expressobits/inventory-system — inventory/UI reference for future item stage; server must own item transactions.
-- https://github.com/voullume/legends-mmo — early-stage architectural reference, not production-ready.
-No dependencies have been installed.
+## GDD-01 GitHub candidates (OWNER DECISIONS 2026-11-22)
+- GH-001 Terrain3D: TEST APPROVED ONLY in isolated prototype; validate Android GDExtension binaries, FPS and memory; no integration into main game authorized. https://github.com/TokisanGames/Terrain3D
+- GH-002 Inventory System: LATER, defer to GDD-13. https://github.com/expressobits/inventory-system
+- GH-003 Legends MMO: STUDY ONLY, architectural reference, no code integration. https://github.com/voullume/legends-mmo
+No dependencies have been installed. GDD-02 design is pending owner approval.
