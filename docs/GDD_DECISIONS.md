@@ -22,3 +22,9 @@ All four decisions are approved by the project owner. No third-party code or plu
 - GH-002 Inventory System: LATER, defer to GDD-13. https://github.com/expressobits/inventory-system
 - GH-003 Legends MMO: STUDY ONLY, architectural reference, no code integration. https://github.com/voullume/legends-mmo
 No dependencies have been installed. GDD-02 design is pending owner approval.
+
+## CHAR-RIG-001 (APPROVED 2026-11-22)
+- Option B: All playable characters, NPCs, and ordinary enemies are humanoid and suitable for Meshy AI rigging; rare bosses may have non-humanoid anatomy.
+- Production constraint: prefer two arms, two legs, head and torso; A-pose/T-pose; shared skeleton conventions where possible. Retargeting and Godot import must be tested, not assumed.
+- Applies to GDD-02 races, GDD-06 animations, GDD-10 enemies/bosses, and Android performance planning.
+- GDD-02 lore/races/factions/war decisions remain UNAPPROVED; no implementation authorized.
