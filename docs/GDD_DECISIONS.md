@@ -75,3 +75,11 @@ No GH-004–GH-007 components installed.
 - GH-011 OctoD/godot-gameplay-systems: MIT; comparative architecture review only because upstream warns of rewrite and limited multiplayer testing.
 - GH-012 LordVasilescu/character-customizer-godot: RESEARCH ONLY / NOT RECOMMENDED for reuse: all rights reserved, character editor is much more complex than approved preset appearance requirement.
 - No GDD-03 GitHub candidates authorized for integration or prototype execution yet.
+
+## GDD-03 GitHub candidate decisions (APPROVED 2026-11-22)
+- GH-008 LiGameAcademy/godot_ability_system: TEST in isolated prototype only; no main game integration.
+- GH-009 catprisbrey/Godot4-OpenAnimationLibraries: TEST in isolated prototype only, verify licenses and asset rights before any reuse.
+- GH-010 Godot native SkeletonProfileHumanoid/BoneMap: TEST in isolated prototype only, prioritize built-in retargeting and Meshy AI skeleton compatibility.
+- GH-011 OctoD/godot-gameplay-systems: STUDY architecture only; no integration or installation.
+- GH-004 Dialogue Manager, GH-005 QuestSystem, GH-006 Beehave remain APPROVED FOR TEST, EXECUTION PENDING.
+- No third-party integration into AMMORPG is authorized by these approvals.
