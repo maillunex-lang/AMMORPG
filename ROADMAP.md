@@ -1,8 +1,8 @@
 # AMMORPG — ROADMAP
 
 ## Status
-- GDD-01 Core concept: APPROVED; GitHub candidate integration: AWAITING SEPARATE APPROVAL.
-- GDD-02 through GDD-20: NOT STARTED.
+- GDD-01 Core concept: APPROVED; GH-001 Terrain3D isolated Android test AUTHORIZED (not yet executed); GH-002 deferred to GDD-13; GH-003 read-only study AUTHORIZED.
+- GDD-02: DESIGN IN PROGRESS, not approved. GDD-03 through GDD-20: NOT STARTED.
 - Gameplay code: NOT STARTED.
 
 ## GDD stages
@@ -28,5 +28,6 @@
 20. [ ] MVP, QA, RuStore release
 
 ## Next actions
-- Owner to approve/reject each GDD-01 GitHub candidate independently.
-- Continue with GDD-02 design; do not implement dependencies before approval.
+- Execute GH-001 isolated Android compatibility/FPS/memory test when a runnable Godot Android environment is available; do not merge into main game without new approval.
+- Perform GH-003 architecture review; no code integration.
+- Present GDD-02 choices (world history, races, factions); do not implement dependencies before approval.
