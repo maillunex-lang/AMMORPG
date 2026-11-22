@@ -58,3 +58,20 @@ No GH-004–GH-007 components installed.
 - EDITOR-002: World regions must be editable in the Godot 3D editor using modular scenes, reusable props, placement/spawn markers and scene-based composition. User can place, move, add or remove buildings, foliage, NPC markers, monster spawn markers, portals and interactive objects visually.
 - Multiplayer boundary: visual scene content is not authoritative for items, quest completion, economics, territory ownership, combat or spawn outcomes. Version and validate exported world definitions against server data; no client-authoritative gameplay changes.
 - These requirements apply across future GDD phases. Specific plugins, publishing pipeline and tooling remain subject to separate review and approval.
+
+## GDD-03: Classes and character creation (APPROVED 2026-11-22)
+- CLASS-001 C: eight classes: Warrior, Paladin, Berserker, Archer, Assassin, Mage, Warlock, Priest (working names; individual ability kits pending).
+- SPEC-001 C: three specializations per class; exact specialization definitions pending.
+- COMBAT-ROLE-001 B: four group roles: tank, healer, damage dealer, support/control.
+- CHAR-CREATE-001 D: preset character appearances and unlockable cosmetic looks, not a slider-based facial/body editor.
+- Preserve CHAR-RIG-001 B: humanoid playable characters/NPCs/ordinary enemies and Meshy AI rigging; rare bosses may differ.
+- Preserve EDITOR-001/002: character selection and class UI must remain editable as Godot scenes; world remains editor-authored.
+- MVP class count, race/class restrictions, appearance ownership and monetization not yet approved.
+
+## GDD-03 GitHub candidate research (PENDING SEPARATE APPROVAL, NOT INSTALLED)
+- GH-008 LiGameAcademy/godot_ability_system: MIT, Godot 4.5+, data-driven abilities, attributes, statuses, cues. Propose isolated test of client presentation and authoring; server-authoritative combat required. README warns APIs may change.
+- GH-009 catprisbrey/Godot4-OpenAnimationLibraries: Godot 4 humanoid bone maps and animation libraries; propose isolated Meshy AI GLB retargeting test; inspect license and individual animation redistribution rights before reuse.
+- GH-010 Godot built-in SkeletonProfileHumanoid/BoneMap retargeting: propose isolated native pipeline test before any plugin; no third-party dependency.
+- GH-011 OctoD/godot-gameplay-systems: MIT; comparative architecture review only because upstream warns of rewrite and limited multiplayer testing.
+- GH-012 LordVasilescu/character-customizer-godot: RESEARCH ONLY / NOT RECOMMENDED for reuse: all rights reserved, character editor is much more complex than approved preset appearance requirement.
+- No GDD-03 GitHub candidates authorized for integration or prototype execution yet.
