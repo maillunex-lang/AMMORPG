@@ -54,10 +54,10 @@
 ## GDD-03 approvals and research
 - [x] CLASS-001 C: 8 classes; SPEC-001 C: 3 specializations/class; COMBAT-ROLE-001 B: tank/healer/damage/support; CHAR-CREATE-001 D: preset looks/cosmetics.
 - [x] GitHub research completed; candidates GH-008–GH-012 documented in GDD_DECISIONS.md.
-- [ ] GH-008 ability system isolated test, subject to separate approval.
-- [ ] GH-009 Meshy animation library retargeting isolated test, subject to separate approval and licensing review.
-- [ ] GH-010 native Godot SkeletonProfileHumanoid/BoneMap isolated test, subject to separate approval.
-- [ ] GH-011 gameplay systems architecture review, subject to separate approval.
+- [x] GH-008 isolated test approved; [ ] execution and results pending.
+- [x] GH-009 isolated test approved; [ ] execution and license verification pending.
+- [x] GH-010 native retargeting isolated test approved; [ ] execution pending.
+- [x] GH-011 architecture study approved; [ ] study findings pending.
 - [ ] GH-012 character customizer: no code reuse due to all-rights-reserved license and mismatch with preset looks.
 - [ ] Complete previously approved isolated GH-004/005/006 tests and record evidence.
 - [ ] GDD-04 stats, levels and talents design.
