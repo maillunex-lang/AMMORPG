@@ -28,3 +28,20 @@ No dependencies have been installed. GDD-02 design is pending owner approval.
 - Production constraint: prefer two arms, two legs, head and torso; A-pose/T-pose; shared skeleton conventions where possible. Retargeting and Godot import must be tested, not assumed.
 - Applies to GDD-02 races, GDD-06 animations, GDD-10 enemies/bosses, and Android performance planning.
 - GDD-02 lore/races/factions/war decisions remain UNAPPROVED; no implementation authorized.
+
+## GDD-02: World history, races, factions (APPROVED 2026-11-22)
+- LORE-001 A: Shattered ancient empire; successor kingdoms contest its legacy. No additional canon about causes or geography is approved yet.
+- RACE-001 C: Four classic humanoid races plus two original humanoid races. Exact names, looks, cultures, and stat bonuses pending separate design.
+- FACTION-001 D: Three major powers plus independent cities and organizations. Names, memberships, capitals, and politics pending.
+- WAR-001 C: Faction wars plus clan wars, including territory/castle conflict. Exact rules pending GDD-12.
+- CHAR-RIG-001 B remains binding: playable races, NPCs and ordinary enemies are humanoid for Meshy AI rigging; rare bosses may differ.
+- These are GDD approvals, not authorization to install third-party software.
+
+## GDD-02 GitHub research candidates (PENDING SEPARATE OWNER APPROVAL)
+- GH-004 nathanhoad/godot_dialogue_manager — branching dialogue editor/runtime; MIT; v4 for Godot 4.6+, v3 for older 4.x. Proposed editor-only dialogue content + client presentation, no authoritative state mutations.
+- GH-005 shomykohai/quest-system — Godot 4.4+ modular quest definitions; MIT; proposed data/content authoring, with server-authoritative quest progress/rewards.
+- GH-006 bitbrain/beehave — Godot 4 behavior trees, MIT; proposed NPC prototype and AI reference, production server behavior to be separately designed.
+- GH-007 limbonaut/limboai — C++ behavior trees and state machines, MIT; candidate for comparative study only; Android/native binary and maintenance burden must be assessed.
+- Faction reputation and diplomacy: custom authoritative server domain model proposed; no sufficiently validated plug-and-play MMORPG solution found.
+- Older godot-addons/godot-quest-system targets Godot 3 and is rejected as a direct Godot 4 dependency.
+No GH-004–GH-007 components installed.
