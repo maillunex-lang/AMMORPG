@@ -52,3 +52,9 @@ No GH-004–GH-007 components installed.
 - GH-006 Beehave: TEST. Isolated prototype permitted; no main-game integration.
 - GH-007 LimboAI: REJECT. Do not install, prototype, or integrate.
 - Prototype tests must verify actual Godot compatibility, basic function, and Android constraints before recommending production use. No server-authoritative quest, dialogue, or AI logic is delegated to clients.
+
+## EDITOR-001 and EDITOR-002 (OWNER REQUIREMENTS, 2026-11-22)
+- EDITOR-001: Every game UI screen must be visually editable on desktop in Godot using separate .tscn scenes, reusable controls/themes, responsive anchors/containers, and presentation separated from game logic. Provide preview/mock data without connecting to the MMO server.
+- EDITOR-002: World regions must be editable in the Godot 3D editor using modular scenes, reusable props, placement/spawn markers and scene-based composition. User can place, move, add or remove buildings, foliage, NPC markers, monster spawn markers, portals and interactive objects visually.
+- Multiplayer boundary: visual scene content is not authoritative for items, quest completion, economics, territory ownership, combat or spawn outcomes. Version and validate exported world definitions against server data; no client-authoritative gameplay changes.
+- These requirements apply across future GDD phases. Specific plugins, publishing pipeline and tooling remain subject to separate review and approval.
