@@ -7,7 +7,7 @@
 
 ## GDD stages
 1. [x] Concept, world, visual style, scale (GDD-01)
-2. [ ] World history, races, factions
+2. [x] World history, races, factions
 3. [ ] Classes and character creation
 4. [ ] Stats, levels, talents
 5. [ ] Combat and controls
@@ -31,7 +31,15 @@
 - [x] CHAR-RIG-001 B: humanoid playable characters, NPCs and ordinary enemies; rare bosses may differ. Meshy AI rigging workflow; validate skeleton compatibility and animation retargeting in Godot.
 - [ ] Apply to GDD-02, GDD-06 and GDD-10.
 
+## GDD-02 GitHub research
+- [ ] GH-004 Dialogue Manager: propose adapting narrative dialogue UI, no client-authoritative quest rewards.
+- [ ] GH-005 QuestSystem: propose adapting quest definitions, server owns progress and rewards.
+- [ ] GH-006 Beehave: propose isolated NPC AI prototype.
+- [ ] GH-007 LimboAI: propose comparative study only, no integration.
+- [ ] Design faction reputation/diplomacy as custom authoritative server subsystem.
+- [ ] Obtain separate approval for all candidates before implementation.
+
 ## Next actions
 - Execute GH-001 isolated Android compatibility/FPS/memory test when a runnable Godot Android environment is available; do not merge into main game without new approval.
 - Perform GH-003 architecture review; no code integration.
-- Present GDD-02 choices (world history, races, factions); do not implement dependencies before approval.
+- Begin GDD-03 classes and character creation design; do not implement dependencies before approval.
