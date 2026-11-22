@@ -45,3 +45,10 @@ No dependencies have been installed. GDD-02 design is pending owner approval.
 - Faction reputation and diplomacy: custom authoritative server domain model proposed; no sufficiently validated plug-and-play MMORPG solution found.
 - Older godot-addons/godot-quest-system targets Godot 3 and is rejected as a direct Godot 4 dependency.
 No GH-004–GH-007 components installed.
+
+## GDD-02 GitHub candidate decisions (APPROVED 2026-11-22)
+- GH-004 Dialogue Manager: TEST. Isolated prototype permitted; no main-game integration.
+- GH-005 QuestSystem: TEST. Isolated prototype permitted; no main-game integration.
+- GH-006 Beehave: TEST. Isolated prototype permitted; no main-game integration.
+- GH-007 LimboAI: REJECT. Do not install, prototype, or integrate.
+- Prototype tests must verify actual Godot compatibility, basic function, and Android constraints before recommending production use. No server-authoritative quest, dialogue, or AI logic is delegated to clients.
