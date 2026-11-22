@@ -32,12 +32,13 @@
 - [ ] Apply to GDD-02, GDD-06 and GDD-10.
 
 ## GDD-02 GitHub research
-- [ ] GH-004 Dialogue Manager: propose adapting narrative dialogue UI, no client-authoritative quest rewards.
-- [ ] GH-005 QuestSystem: propose adapting quest definitions, server owns progress and rewards.
-- [ ] GH-006 Beehave: propose isolated NPC AI prototype.
-- [ ] GH-007 LimboAI: propose comparative study only, no integration.
+- [x] GH-004 Dialogue Manager: isolated test approved; execution pending.
+- [x] GH-005 QuestSystem: isolated test approved; execution pending.
+- [x] GH-006 Beehave: isolated test approved; execution pending.
+- [x] GH-007 LimboAI: rejected; do not use.
 - [ ] Design faction reputation/diplomacy as custom authoritative server subsystem.
-- [ ] Obtain separate approval for all candidates before implementation.
+- [ ] Execute three isolated tests and document evidence/results; do not integrate into main game.
+- [x] Owner decisions recorded for GH-004–GH-007.
 
 ## Next actions
 - Execute GH-001 isolated Android compatibility/FPS/memory test when a runnable Godot Android environment is available; do not merge into main game without new approval.
