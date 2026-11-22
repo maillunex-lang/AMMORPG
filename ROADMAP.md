@@ -2,13 +2,13 @@
 
 ## Status
 - GDD-01 Core concept: APPROVED; GH-001 Terrain3D isolated Android test AUTHORIZED (not yet executed); GH-002 deferred to GDD-13; GH-003 read-only study AUTHORIZED.
-- GDD-02: DESIGN IN PROGRESS, not approved. CHAR-RIG-001 B approved as cross-stage Meshy AI production constraint. GDD-03 through GDD-20: NOT STARTED.
+- GDD-02: DESIGN IN PROGRESS, not approved. CHAR-RIG-001 B approved as cross-stage Meshy AI production constraint. GDD-03 APPROVED; GDD-04 through GDD-20 NOT STARTED.
 - Gameplay code: NOT STARTED.
 
 ## GDD stages
 1. [x] Concept, world, visual style, scale (GDD-01)
 2. [x] World history, races, factions
-3. [ ] Classes and character creation
+3. [x] Classes and character creation
 4. [ ] Stats, levels, talents
 5. [ ] Combat and controls
 6. [ ] Abilities, VFX, animations
@@ -50,3 +50,14 @@
 - Execute GH-001 isolated Android compatibility/FPS/memory test when a runnable Godot Android environment is available; do not merge into main game without new approval.
 - Perform GH-003 architecture review; no code integration.
 - Begin GDD-03 classes and character creation design; do not implement dependencies before approval.
+
+## GDD-03 approvals and research
+- [x] CLASS-001 C: 8 classes; SPEC-001 C: 3 specializations/class; COMBAT-ROLE-001 B: tank/healer/damage/support; CHAR-CREATE-001 D: preset looks/cosmetics.
+- [x] GitHub research completed; candidates GH-008–GH-012 documented in GDD_DECISIONS.md.
+- [ ] GH-008 ability system isolated test, subject to separate approval.
+- [ ] GH-009 Meshy animation library retargeting isolated test, subject to separate approval and licensing review.
+- [ ] GH-010 native Godot SkeletonProfileHumanoid/BoneMap isolated test, subject to separate approval.
+- [ ] GH-011 gameplay systems architecture review, subject to separate approval.
+- [ ] GH-012 character customizer: no code reuse due to all-rights-reserved license and mismatch with preset looks.
+- [ ] Complete previously approved isolated GH-004/005/006 tests and record evidence.
+- [ ] GDD-04 stats, levels and talents design.
